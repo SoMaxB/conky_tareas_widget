@@ -1,0 +1,42 @@
+conky.config = {
+    alignment = 'top_left',
+	gap_x = 20,
+	gap_y = 60,
+    background = false,
+    double_buffer = true,
+    minimum_width = 300,
+    maximum_width = 900,
+    use_xft = true,
+    font = 'AgaveNerdFont Mono-Bold:size=15',
+    update_interval = 3.0,
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = false,  -- IMPORTANTE: esto va en false para usar argb
+    own_window_argb_visual = true,
+    own_window_argb_value = 120,       -- 0 es completamente transparente, 255 es opaco
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = true,
+    draw_graph_borders = false,
+    default_color = 'grey',
+};
+
+conky.text = [[
+${voffset 1}
+${color orange} Tareas Pendientes:${color}
+${color lightgrey}    ------------------------${color}
+${voffset 1}
+${exec sed '/^$/d' ~/.tareas/tareas.txt | nl -w1 -s'. ' | sed 's/^/    /; s/$/    /'}
+${voffset 1}
+
+${voffset 20}${color grey}
+${color lightgrey}    ------------------------${color}
+${color orange}  Nueva tarea:${color}
+  echo "- [ ] tarea" >> ~/.tareas/tareas.txt
+${color orange}  Editar:${color}
+  nvim ~/.tareas/tareas.txt
+${color orange}  Completar:${color}
+  [ ] → [x]
+
+]];
