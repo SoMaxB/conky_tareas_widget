@@ -2,7 +2,7 @@
 
 Un widget elegante y funcional para mostrar y gestionar tus tareas pendientes directamente en el escritorio usando Conky.
 
-![Preview del Widget](preview.png) *(opcional: añade una captura de pantalla)*
+![Preview del Widget](preview.png) *(añadir una captura de pantalla)*
 
 ## 🚀 Instalación Automática
 
