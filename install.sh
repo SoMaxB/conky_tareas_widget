@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script de instalación automática para widget de tareas Conky
-# Autor: [Tu nombre]
+# Autor: SoMaxB
 # Descripción: Instala y configura automáticamente el widget de tareas
 
 echo "=== Instalador del Widget de Tareas Conky ==="
