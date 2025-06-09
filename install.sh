@@ -112,7 +112,7 @@ install_config() {
     fi
     
     # Copiar nueva configuración
-    cp .conkyrc ~/.conkyrc
+    cp conkyrc ~/.conkyrc
     print_success "Configuración de Conky instalada"
 }
 
