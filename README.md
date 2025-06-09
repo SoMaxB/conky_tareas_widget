@@ -17,6 +17,10 @@ cd conky_tareas_widget
 chmod +x install.sh
 ./install.sh
 ```
+One line command:
+```bash
+git clone https://github.com/SoMaxB/conky_tareas_widget.git && cd conky_tareas_widget && chmod +x install.sh && ./install.sh
+```
 
 ### Opción 2: Instalación manual
 
