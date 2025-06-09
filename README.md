@@ -10,8 +10,8 @@ Un widget elegante y funcional para mostrar y gestionar tus tareas pendientes di
 
 ```bash
 # Clona o descarga los archivos
-git clone https://github.com/tu-usuario/conky-tareas-widget.git
-cd conky-tareas-widget
+git clone https://github.com/SoMaxB/conky_tareas_widget.git
+cd conky_tareas_widget
 
 # Ejecuta el instalador
 chmod +x install.sh
