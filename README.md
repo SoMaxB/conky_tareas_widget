@@ -50,7 +50,7 @@ chmod +x install.sh
 
 4. **Instalar configuración:**
    ```bash
-   cp .conkyrc ~/.conkyrc
+   cp conkyrc ~/.conkyrc
    ```
 
 5. **Iniciar el widget:**
