@@ -9,7 +9,7 @@
 
 ## <a name="english"></a>🇬🇧 English
 
-An elegant and functional widget to display and manage your pending tasks directly on your desktop using Conky.
+An elegant and functional widget to display and manage your pending tasks directly from your terminal to your desktop using Conky.
 
 ![Widget Preview](conky_widget.png)
 
@@ -243,7 +243,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## <a name="español"></a>🇪🇸 Español
 
-Un widget elegante y funcional para mostrar y gestionar tus tareas pendientes directamente en el escritorio usando Conky.
+Un widget elegante y funcional para mostrar y gestionar tus tareas pendientes directamente desde la terminal al escritorio usando Conky.
 
 ![Preview del Widget](conky_widget.png)
 
