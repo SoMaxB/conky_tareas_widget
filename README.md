@@ -344,6 +344,16 @@ conky -c ~/.conkyrc &
 # El widget se inicia automáticamente al hacer login
 ```
 
+## ❌ Desinstalación - Uninstall
+
+Para desinstalar el widget de tareas y limpiar la configuración, ejecuta:
+
+```bash
+./uninstall.sh
+```
+
+Sigue las instrucciones del script para elegir qué componentes eliminar.
+
 ## ⚙️ Configuración
 
 ### Personalizar posición y apariencia
