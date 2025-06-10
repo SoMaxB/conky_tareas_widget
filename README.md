@@ -110,6 +110,16 @@ conky -c ~/.conkyrc &
 # The widget starts automatically upon login
 ```
 
+## ❌ Uninstall
+
+To uninstall the task widget and clean up the configuration, run:
+
+```bash
+./uninstall.sh
+```
+
+Follow the script's instructions to choose which components to remove.
+
 ## ⚙️ Configuration
 
 ### Customize position and appearance
@@ -185,6 +195,7 @@ touch ~/.tareas/tareas.txt
 conky-tareas-widget/
 ├── .conkyrc              # Main Conky configuration
 ├── install.sh            # Automatic installation script
+├── uninstall.sh          # Automatic uninstallation script
 ├── README.md             # This file
 └── preview.png           # Screenshot (optional)
 ```
@@ -429,6 +440,7 @@ touch ~/.tareas/tareas.txt
 conky-tareas-widget/
 ├── .conkyrc              # Configuración principal de Conky
 ├── install.sh            # Script de instalación automática
+├── uninstall.sh          # Script de desinstalación automática
 ├── README.md             # Este archivo
 └── preview.png           # Captura de pantalla (opcional)
 ```
