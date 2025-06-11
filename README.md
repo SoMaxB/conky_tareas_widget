@@ -496,7 +496,3 @@ Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
 **¿Problemas o sugerencias?** Abre un [issue](https://github.com/SoMaxB/conky_tareas_widget/issues) en GitHub.
 
 ```
-
----
-
-¿Quieres que también lo suba como un commit/pull request, o solo necesitas el archivo para reemplazarlo manualmente?
